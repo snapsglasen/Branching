@@ -20,7 +20,12 @@ Categories of git commands and practice with branching:
 *`git branch` -list local branches, highlight current branch
 *`git branch branchName` - create branch 'branchName'
 * `git checkout branchName` - switch to branch `branchName`
-* `git checkout -b otherBranch` - switch to branch `otherBranch`, creating it if it doesn't exis
+* `git checkout -b otherBranch` - switch to branch `otherBranch`, creating it if it doesn't exist
+
+## Remote commands
+
+* `git remote add origin someURL` - connect local repo to remote repo url as `oigin`
+* `git push origin branchName` - push local commits to remote repo into branch `branchName`
 
 ### Other Commands
 
